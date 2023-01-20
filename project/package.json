@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/google.maps": "^3.51.0",
+    "axios": "^1.2.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

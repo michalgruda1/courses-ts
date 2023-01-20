@@ -1,0 +1,46 @@
+Notatki z TS
+________________________________________________
+
+tsc - typescript compiler
+
+TS - just syntax, browser or Node.js knows nothing about TS
+
+Node - JS runtime environment
+
+JS has two kinds of types: Value Types and Object Types.
+Value Types are:
+- string
+- number
+- boolean
+- null
+- undefined
+- void
+- symbol
+
+Object Types are:
+- functions
+- arrays
+- classes
+- objects
+
+Type is an easy way to access different properties and functions that a value has.
+
+Type annotations is how we tell TS how it can help us to avoid errors
+Type inference are built-in rules that allow TS to make assumptions about types, so it can later on use those types to help avoid errors
+
+ctrl + shift+ p opens command palllette. You can write: fold level 2 to have code folded. Command to unfold is unfold all.
+
+
+
+Notatki z React
+________________________________________________
+
+Component names must be uppercase because if component name is not uppercase then if writing <post /> react will look for deafault html component rather than your react component, finds none.
+Hooks must be executed inside a function that is a component it will have an error if used outside a component.
+calling useState inside a component registers a slice of state that belongs by this component only. This slice can be an object, a string, number, etc.
+
+useState hook takes as an argument a initital value of state slice that is associated with component you called it within. It returns an array of two objects.
+1st is current value in state for that state slice.
+2nd is the function to alter that slice, that you can use to alter that slice of state.
+That function has important feature. It not only saves the value you procide to it inside the state, it also causes function that is the body of current component to rerun. 
+That causes updated state to be visible for component, providing it uses state to store and retrieve component values.

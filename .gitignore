@@ -1,0 +1,6 @@
+.parcel-cache
+node_modules
+package.json
+package-lock.json
+/project/map/dist
+1
